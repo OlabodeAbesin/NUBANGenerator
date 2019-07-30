@@ -15,5 +15,12 @@
         "psr-4": {
             "Olabodeabesin\\Nuban\\": "src"
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Olabodeabesin\\Nuban\\NubanServiceProvider"
+            ]
+        }
     }
 }
