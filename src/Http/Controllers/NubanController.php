@@ -32,6 +32,10 @@ class NubanController extends Controller
         $makeModulos = $calculateNuban % $standardNumber;
 
         $checkDigit = $standardNumber - $makeModulos;
+        if ($checkDigit == 10) {
+            $checkDigit = 0;
+        }
+ 
 
         return $NUBAN = $serial . $checkDigit;
     }
