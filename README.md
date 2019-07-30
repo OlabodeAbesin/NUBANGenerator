@@ -1,15 +1,17 @@
-### Nuban Account Generator
+# Nuban Account Generator
 
-## This package was inspired by Samuel(https://github.com/samuel52)
+### This package was inspired by Samuel(https://github.com/samuel52)
 
-## This package is used to generate a Nigerian Uniform Bank Account Number in php laravel
+### This package is used to generate a Nigerian Uniform Bank Account Number in php laravel
 
 ## Usage
 
 
-###composer require olabodeabesin/nuban
+### composer require olabodeabesin/nuban
 
-# Top of your controller, use Olabodeabesin\Nuban\Http\Controllers\NubanController as Nuban;
+## Top of your controller, 
+
+### use Olabodeabesin\Nuban\Http\Controllers\NubanController as Nuban;
 
 ###
 
