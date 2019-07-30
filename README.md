@@ -6,12 +6,16 @@
 
 ## Usage
 
-
-### composer require olabodeabesin/nuban
+```php
+composer require olabodeabesin/nuban
+```
 
 ## Top of your controller, 
 
-### use Olabodeabesin\Nuban\Http\Controllers\NubanController as Nuban;
+```php
+use Olabodeabesin\Nuban\Http\Controllers\NubanController as Nuban;
+```
+
 
 ###
 
