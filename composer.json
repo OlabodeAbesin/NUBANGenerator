@@ -1,0 +1,19 @@
+{
+    "name": "olabodeabesin/nuban",
+    "description": "This package is used to generate a Nigerian Uniform Bank Account Number in php",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Olabode Abesin",
+            "email": "Olabode.abesin@sparkle.ng"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Olabodeabesin\\Nuban\\": "src"
+        }
+    }
+}
